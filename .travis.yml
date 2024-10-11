@@ -7,6 +7,6 @@ before_install:
 
 
 script:
- - docker run -e CI=true vp/docker-react npm rn test 
+ - docker run -e CI=true vp/docker-react npm run test 
 
 
